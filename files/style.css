@@ -1,0 +1,58 @@
+*{margin:0; padding:0}
+body { font-family: "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; animation:s 0.1s; background-color: grey; text-align: center; white-space: pre-wrap; }
+/* @keyframes s{0% {	transform:rotate(10deg) scale(0,0);}100% {scale(1,1)}} */
+input, textarea{ border: 1px solid black;}
+a, z { text-decoration: none; color:blue; line-height:1.0; }
+a:hover, n:hover, z:hover{ color:darkred; cursor:pointer;}
+z:hover:after { content: "Забанить!"; }
+z:after { content: " ☠"; }
+a:not([href]):after { content: attr(id); }
+textarea { height:400px; }
+.sto, textarea { width: calc(100% - 2px); }
+pre { overflow-x: auto; background:#e0e0e0; margin:10px 0; }
+@media handheld {body { font-size: 2em; }}
+div {max-width:700px; background-color: white; text-align: left; padding: 8px 16px; margin-bottom: 16px;}
+/* body> */div { margin-left: calc(50% - 366px); }
+div p { padding: 8px 0; color: grey; }
+/* *:first-line{color: grey;} */	/*div:first-line/*
+div>a {line-height: 38px;}
+.nik, n{ color: green; /*font-weight:bold;}*/
+img { max-width: 100%; }
+/* a:after { content: " (" attr(href) ")"; }  */
+span { color: blue; }
+canvas {border:1px solid;}
+a.top {position:fixed; top:50px; left:50px; font-size:90px;}
+a.top2 {position:fixed; top:50px; left:100px; font-size:90px;}
+@media (max-width: 748px) and (min-width: 716px) {
+	div {padding: 8px calc(50vw - 358px);/*  padding-right: 8px */}
+}
+@media (max-width: 748px) {
+	/* body> */
+	div { margin-left:0; }
+	a.top {top:10px; left:10px; font-size:20px;}
+	a.top2 {top:10px; left:20px; font-size:20px;}
+}
+@media (max-width: 716px) {
+	div {padding: 8px 0;/*   padding-right: 8px */}
+}
+
+/*
+     FILE ARCHIVED ON 01:09:29 Feb 16, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:28:53 Jan 27, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.68
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.011
+  esindex: 0.014
+  cdx.remote: 18.432
+  LoadShardBlock: 116.192 (3)
+  PetaboxLoader3.datanode: 179.322 (4)
+  load_resource: 448.637
+  PetaboxLoader3.resolve: 265.12
+*/
